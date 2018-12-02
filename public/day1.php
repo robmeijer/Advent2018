@@ -10,10 +10,6 @@ $contents = $container->get(Filesystem::class)->read('Day1/input.txt');
 preg_match_all('/(?<rows>.+)/', $contents, $matches);
 [$rows] = $matches;
 
-// -----------------------------------------------------------------------------
-// ----------------------------------- DAY 1 -----------------------------------
-// -----------------------------------------------------------------------------
-
 /** @var FrequencyCalibrator $frequencyCalibrator */
 $frequencyCalibrator = $container->get(FrequencyCalibrator::class);
 
