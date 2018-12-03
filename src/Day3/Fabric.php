@@ -10,7 +10,7 @@ class Fabric
     /** @var array<int> */
     private $overlaps = [];
 
-    /** @var array <int> */
+    /** @var array<int> */
     private $claims = [];
 
     public function addClaimToPosition(string $position, Claim $claim)
