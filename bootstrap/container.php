@@ -2,6 +2,7 @@
 
 use Advent2018\Day1\FrequencyCalibrator;
 use Advent2018\Day2\ChecksumCalculator;
+use Advent2018\Day3\Fabric;
 use League\Container\Argument\RawArgument;
 use League\Container\Container;
 use League\Flysystem\Adapter\Local;
@@ -21,5 +22,10 @@ $container->add(FrequencyCalibrator::class);
 // ----------------------------------- DAY 2 -----------------------------------
 // -----------------------------------------------------------------------------
 $container->add(ChecksumCalculator::class);
+
+// -----------------------------------------------------------------------------
+// ----------------------------------- DAY 2 -----------------------------------
+// -----------------------------------------------------------------------------
+$container->add(Fabric::class);
 
 return $container;
